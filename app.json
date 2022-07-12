@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "sayTel_app",
-    "slug": "sayTel_app",
+    "name": "BlindGuide",
+    "slug": "BlindGuide",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -18,13 +18,15 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.thewhitewolf2411.BlindGuide"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.thewhitewolf2411.BlindGuide"
     },
     "web": {
       "favicon": "./assets/favicon.png"
